@@ -1,0 +1,158 @@
+<!--
+🟡🟡🐝 Minecraft Bee🐝🟡🟡
+Just do it!!
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minecraft bee</title>
+        
+      
+        <style>
+            *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    
+    background:#2a7bcb;
+}
+
+.mainbody{
+    animation:2s anim linear infinite;
+}
+
+.head{
+    width:150px;
+    height:150px;
+    background:gold;
+    
+}
+
+.ear1{
+    position:relative ;
+    width:25px;
+    height:50px;
+    background:black;
+    margin-left:10px;
+    top:10px;
+}
+.ear2{
+    position:relative ;
+    float:right;
+    width:25px;
+    height:50px;
+    background:black;
+    margin-right:10px;
+    top:-40px;
+}
+
+.eye1{
+    position:relative ;
+    width:50px;
+    height:60px;
+    background-color:#000;
+    top:40px;
+    left:0px;
+}
+
+.eye2{
+    position:relative ;
+    float:right;
+    width:50px;
+    height:60px;
+    background-color:#000;
+    top:-20px;
+    left:0px;
+}
+
+.eyeball{
+    width:25px;
+    height:25px;
+    background:skyblue;
+}
+
+.eyeball2{
+    width:25px;
+    height:25px;
+    background:skyblue;
+    float:right ;
+}
+
+.leg1{
+    width:25px;
+    height:40px;
+    background:#000;
+    margin-left:20px;
+}
+
+.leg2{
+    position:relative;
+    float:right;
+    width:25px;
+    height:40px;
+    background:#000;
+    margin-right:20px;
+    top:-40px;
+}
+
+.w1{
+    position:relative ;
+    width:100px;
+    height:20px;
+    background-color:rgba(255,255,255,.3);
+    left:-100px;
+    bottom:90px;
+    
+    
+}
+
+.w2{
+    position:relative ;
+    width:100px;
+    height:20px;
+    float:right;
+    background-color:rgba(255,255,255,.3);
+    left:145px;
+    bottom:110px;
+}
+
+@keyframes anim{
+   50%{
+       margin-top:30px;
+   }
+    
+}
+
+
+        </style>
+                
+    </head>
+    <body>
+    <div class="mainbody">
+    <div class="ear1"></div><span class="ear2"></span>
+        <div class="head">
+            <div class="eye1">
+                <div class="eyeball"></div>
+            </div> 
+            <span class="eye2">
+                <div class="eyeball2"></div>
+            </span> 
+        </div>
+        <div class="leg1"></div>
+        
+        <span class="leg2"></span>
+    <div class="w1"></div>
+    <span class="w2"></span>
+        
+        </div>
+        
+    </body>
+</html>
